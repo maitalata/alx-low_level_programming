@@ -8,6 +8,9 @@
  * Return main will alwasy return 0
  */
 
+/**
+ * main accept void meaning nothing
+ */
 int main(void)
 {
 	int n;
