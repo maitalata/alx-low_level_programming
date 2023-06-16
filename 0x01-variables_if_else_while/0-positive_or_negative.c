@@ -3,7 +3,9 @@
 #include <time.h>
 
 /**
- * Possitive zero and nagetive
+ * main - main function to print nagatives, zero and psitives
+ *
+ * Return main will alwasy return 0
  */
 
 int main(void)
@@ -12,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-   
+	
 	if (n > 0)
 	  {
 	    printf("%d is positive\n", n);
