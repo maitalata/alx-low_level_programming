@@ -9,7 +9,9 @@
  */
 
 /**
- * main accept void meaning nothing
+ * Main Function (i.e) starting point for all programs
+ *
+ * void Function does not accept value
  */
 int main(void)
 {
