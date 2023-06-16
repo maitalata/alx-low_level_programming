@@ -3,33 +3,31 @@
 #include <time.h>
 
 /**
- * main - main function to print nagatives, zero and psitives
+ * main - Entry point for the program
  *
- * Return main will alwasy return 0
- */
-
-/**
- * Main Function (i.e) starting point for all programs
+ * This function prints whether a randomly generated number is positive, negative, or zero.
  *
- * void Function does not accept value
+ * Return: Always 0 (indicating successful execution)
  */
 int main(void)
 {
-	int n;
+    int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	
-	if (n > 0)
-	  {
-	    printf("%d is positive\n", n);
-	  }
-	else if (n == 0)
-	  {
-	    printf("%d is zero\n", n);
-	  }
-	else
-	  printf("%d is negative\n", n);
-	
-	return (0);
+    srand(time(0));
+    n = rand() - RAND_MAX / 2;
+
+    if (n > 0)
+    {
+        printf("%d is positive\n", n);
+    }
+    else if (n == 0)
+    {
+        printf("%d is zero\n", n);
+    }
+    else
+    {
+        printf("%d is negative\n", n);
+    }
+
+    return 0;
 }
