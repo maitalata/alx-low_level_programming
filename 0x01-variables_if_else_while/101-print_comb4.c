@@ -12,7 +12,7 @@ int main(void)
 {
 	int digit1, digit2, digit3;
 	int firstCombination = 1;
-	
+
 	for (digit1 = 0; digit1 <= 9; digit1++)
 	{
 		for (digit2 = digit1 + 1; digit2 <= 9; digit2++)
@@ -28,16 +28,16 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-				
+
 				putchar(digit1 + '0');
 				putchar(digit2 + '0');
 				putchar(digit3 + '0');
 			}
 		}
 	}
-	
+
 	putchar('\n');
-	
+
 	return (0);
 }
 
