@@ -3,38 +3,42 @@
 /**
  * main - Entry point for the program
  *
- * This function print alphabets
+ * This function prints all combinations of the three digits 0, 1, and 2
+ * in ascending order without repeating digits
  *
  * Return: Always 0 (indicating successful execution)
  */
 int main(void)
 {
-	int digit1, digit2, digit3;
+    int digit1, digit2, digit3;
+    int firstCombination = 1;
 
-	for (digit1 = 0; digit1 <= 9; digit1++)
-	{
-		for (digit2 = digit1 + 1; digit2 <= 9; digit2++)
-		{
-			for (digit3 = digit2 + 10; digit3 <= 9; digit3++)
-			{
-				if (digit1 != digit2 && digit2 != digit3 && digit1 != digit3)
-				{
-					putchar(digit1 + '0');
-					putchar(digit2 + '0');
-					putchar(digit3 + '0');
+    for (digit1 = 0; digit1 <= 9; digit1++)
+    {
+        for (digit2 = digit1 + 1; digit2 <= 9; digit2++)
+        {
+            for (digit3 = digit2 + 1; digit3 <= 9; digit3++)
+            {
+                if (firstCombination)
+                {
+                    firstCombination = 0;
+                }
+                else
+                {
+                    putchar(',');
+                    putchar(' ');
+                }
 
-					if (!(digit1 == 2 && digit2 == 1 && digit3 == 0))
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-			}
-		}
-	}
+                putchar(digit1 + '0');
+                putchar(digit2 + '0');
+                putchar(digit3 + '0');
+            }
+        }
+    }
 
-	putchar('\n');
+    putchar('\n');
 
-	return (0);
+    return (0);
 }
+
 
