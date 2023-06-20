@@ -18,16 +18,4 @@ void print_alphabet(void)
 	_putchar('\n');
 }
 
-/**
- * main - Entry point for the program
- *
- * This function print alphabets
- *
- * Return: Always 0 (indicating successful execution)
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
