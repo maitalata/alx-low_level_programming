@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isLower - Function to check if character is lower
+ * _islower - Function to check if character is lower
  *
  * @c The character to print
  *
- * Return: Always 0 (indicating successful execution)
+ * Return: int number indicating success or otherwise
  */
 int _islower(int c)
 {
