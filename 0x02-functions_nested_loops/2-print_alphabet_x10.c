@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point for the program
+ * print_alphabet_x10 - Entry point for the program
  *
  * Print Alphabets 10 TImes
  *
