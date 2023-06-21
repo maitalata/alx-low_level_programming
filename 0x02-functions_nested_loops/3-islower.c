@@ -3,8 +3,8 @@
 /**
  * isLower - Entry point for the program
  *
- * This function prints whether a letter is alphabet
- *  
+ * This function prints whether a character is lower
+ *
  * Return: Always 0 (indicating successful execution)
  */
 int islower(int c)
@@ -14,4 +14,3 @@ int islower(int c)
 	else
 		return (0);
 }
-
