@@ -3,7 +3,7 @@
 /**
  * _islower - Function to check if character is lower
  *
- * @c The character to print
+ * @c: The character to print
  *
  * Return: int number indicating success or otherwise
  */
