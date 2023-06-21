@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isLower - Entry point for the program
+ * _isLower - Function to check if character is lower
  *
- * This function prints whether a character is lower
+ * @c The character to print
  *
  * Return: Always 0 (indicating successful execution)
  */
