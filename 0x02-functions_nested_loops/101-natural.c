@@ -14,7 +14,7 @@ int main(void)
 		{
 			z += i;
 		}
-		
+
 		i++;
 	}
 
