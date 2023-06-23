@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
-*print_numbers - Funtion
-*
-*Return: 0
+* print_numbers - Funtion
 */
 void print_numbers(void)
 {
@@ -16,3 +14,4 @@ void print_numbers(void)
 	_putchar('\n');
 
 }
+
