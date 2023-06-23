@@ -5,7 +5,6 @@
  * @n: input value to check
  * Return: nothing.
  */
-
 void print_number(int n)
 {
 	unsigned int num, num2;
