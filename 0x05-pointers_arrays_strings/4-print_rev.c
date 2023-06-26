@@ -1,12 +1,17 @@
 #include "main.h"
 
+/*
+ * print_rev - print string in reverse order
+ *
+ * @s: string to reverse
+ */
 void print_rev(char *s)
 {
 	int str_count, i;
 
 	str_count = 0;
 
-	while(s[str_count] != '\0')
+	while (s[str_count] != '\0')
 	{
 		str_count++;
 	}
