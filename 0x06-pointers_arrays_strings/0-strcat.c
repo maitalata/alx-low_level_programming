@@ -6,7 +6,7 @@
  * @dest: destination string
  * @src: source string
  *
- * Return - the two strings concatenated
+ * Return: the two strings concatenated
  * together
  */
 char *_strcat(char *dest, char *src)
