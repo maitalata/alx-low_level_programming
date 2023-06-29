@@ -1,25 +1,30 @@
 #include "main.h"
 
 /**
-* *_strncpy - concatenate two strings
-* @dest : destination string
-* @src : source string
-* @n : number of bytes to copy from sr
-* Return: the concatenated string.
+* _strncat - function to concatenate two strings
+*
+* @dest: destination string
+* @src: source string
+* @n:  bytes to copy
+*
+* Return: Destiny
 */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
+	int r = 0;
+	int tam = 0;
 
-	while (i < n && src[i] != '\0')
+	for (; dest[tam];)
 	{
-		dest[i] = src[i];
-		i++;
+		tam++;
 	}
-	while (i < n)
+
+	while (r < n && src[r])
 	{
-		dest[i] = '\0';
+		dest[tam + i] = src[r];
 		i++;
+		r++;
 	}
 	return (dest);
 }
