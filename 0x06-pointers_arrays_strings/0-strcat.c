@@ -13,9 +13,10 @@ char *_strcat(char *dest, char *src)
 
 	while (1)
 	{
-		if (src[i] != '\0')
+		if (src[i] == '\0')
 		{
 			dest[dest_length] = '\0';
+			break;
 		}
 
 		dest[dest_length++] = src[i++];
