@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Get the commit message as a command-line argument
+commit_message="$1"
+
+# Set a default commit message if no argument is provided
+if [ -z "$commit_message" ]; then
+  commit_message="Added New Task"
+fi
+
+# Perform the Git commands
+git add .
+git commit -m "$commit_message"
+git push
