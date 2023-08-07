@@ -13,7 +13,7 @@
  *           function will read from the file and print
  *
  * Return: If the function fails or filename is NULL - 0.
- *         or  the actual number of bytes the function 
+ *         or  the actual number of bytes the function
  *         can read and print.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
