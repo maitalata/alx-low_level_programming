@@ -1,7 +1,3 @@
-/*
- * File: 0-read_textfile.c
- * Auth: Dr Marcus.
- */
 #include "main.h"
 #include <stdlib.h>
 
@@ -12,7 +8,7 @@
  * @letters: The number of letters the
  *           function will read from the file and print
  *
- * Return: If the function fails or filename is NULL - 0.
+ * Return: If the function fails or filename is NULL - 0
  *         or  the actual number of bytes the function
  *         can read and print.
  */
