@@ -6,7 +6,7 @@
  *
  * Return: length of the string
  */
-size_t _getlem(char *str)
+size_t _getlen(char *str)
 {
 	size_t i;
 
